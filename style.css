@@ -15,7 +15,7 @@
 }
 
 .nav-logo{
-    height: 50px;
+    height: 40px;
     width: 110px;
 }
 
@@ -58,9 +58,13 @@
     display: flex;
     justify-content: space-evenly;
     background-color: pink;
-    width: 620px;
-    height: 40px;
+    width: 450px;
+    height: 35px;
     border-radius: 4px;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
 }
 
 .search-select{
@@ -90,4 +94,22 @@
     color: #0f1111;
 }
 
+/* box4 */
+.span{
+    font-size: 0.1rem;
+}
 
+.nav-second{
+    font-size: 0.90rem;
+    font-weight: 700;
+}
+
+/* box5 */
+.nav-cart>i{
+    font-size: 15px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
