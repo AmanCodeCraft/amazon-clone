@@ -113,3 +113,47 @@
     font-size: 0.85rem;
     font-weight: 700;
 }
+/* Second bar/panel */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.panel-all{
+    display: flex;
+    gap:4px;
+}
+
+.panel-ops{
+    display: flex;
+    width: 70%;
+    align-items: center;
+}
+
+.panel-ops>a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.85rem;
+    margin-left: 16px;
+}
+
+.panel-deals>a{
+    text-decoration: none;
+    color:white;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* hero-section */
+.hero-sec{
+    background-image: url(./images/heroImg.jpg);
+    height: 250px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
