@@ -15,16 +15,14 @@
 }
 
 .nav-logo{
-    height: 40px;
-    width: 110px;
+    height: 20px;
+    width: 100px;
 }
 
 .logo{
     background-image: url("./icons/amazon-logo.png");
-    background-size:contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 25px;
+    background-size:cover;
+    height: 30px;
     width: 100%;
 }
 
