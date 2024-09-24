@@ -204,8 +204,38 @@
 }
 
 .footer-panel2{
-    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 160px;
     background-color: #222f3d;
     color:white;
+    padding-top: 25px;
+    padding-right: 25px;
+}
+ul>a{
+    display: flex;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: white;
 }
 
+/* footer-panel3 */
+.footer-panel3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: #34475a;
+}
+
+.amazonImg{
+    background-image: url(./icons/amazon-logo.png);
+    background-size: cover;
+    height: 30px;
+    width: 100px;
+}
+
+.footer-panel4{
+    height: 50px;
+    background-color: #0f1111;
+}
