@@ -150,7 +150,7 @@
 /* hero-section */
 .hero-sec{
     background-image: url(./images/heroImg.jpg);
-    height: 250px;
+    height: 420px;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -168,6 +168,8 @@
 .box{
     height: 360px;
     width:23%;
+    position: relative;
+    top: -190px;
     background-color: white;
     padding: 20px 0px 15px;
     margin-top: 16px;
@@ -193,7 +195,7 @@
 /* advertisement area */
 .add-area{
     background-color: white;
-    height: 170px;
+    height: 180px;
     color: black;
     font-weight: bold;
     font-size: 0.9rem;
@@ -247,7 +249,7 @@
 .footer-panel2{
     display: flex;
     justify-content: space-evenly;
-    height: 160px;
+    height: 150px;
     background-color: #222f3d;
     color:white;
     padding-top: 25px;
@@ -306,6 +308,8 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
 i{
     font-size: 0.8rem;
 }
+
